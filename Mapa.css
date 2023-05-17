@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+:root{
+    --color-verdeEscuro:font-family: 'Manrope', sans-serif;;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* -------------------------------NAV BAR------------------------------------ */
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1-div1{
+    margin-top: 20px;
+}
+.logoAraruna{
+    background-color: rgb(75, 70, 68);
+    width: 53px;
+    height: 53px;
+    border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+.navBar-div2{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.navBar-div2-a{
+    color: black;
+    font-family: 'Manrope', sans-serif;
+}
+.navBar-div2-a:hover{
+    color: #22A68E;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+
+/*-------------------------------Usuario----------------------------------------*/
+
+.section2{
+    width: 500px;
+
+}
+.section2-div2{
+    display: flex;
+    background-color: #F5F7FB;
+    width: 370px;
+    height: 378px;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.section-div2-div1{
+    background-color: #FFFFFF;
+    width: 349px;
+    height: 296px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 50px;
+   
+}
+
+.userImg{
+    width: 90px;
+    height: 90px;
+    margin: 0;
+}
+.section-div2-div1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.userName{
+    font-size: 15px;
+    width: 218px;
+    height: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    width: 230px;
+    color: #615F5F;
+}
