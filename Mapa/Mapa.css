@@ -9,6 +9,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    background-color: #615F5F;
 }
 
 /* -------------------------------NAV BAR------------------------------------ */
@@ -54,6 +55,8 @@ hr{
 /* ---------------------------------------------------------------------------- */
 
 
+
+
 /*-------------------------------Usuario----------------------------------------*/
 
 .section2{
@@ -70,6 +73,7 @@ hr{
     border-radius: 50px;
     flex-direction: column;
     align-items: center;
+    opacity: 0;
 }
 
 .section2-div2-div1-div1{
@@ -79,17 +83,17 @@ hr{
 }
 .section2-div2-div1{
     background-color: #FFFFFF;
-    width: 349px;
+    width: 350px;
     height: 296px;
-    margin-top: 15px;
+    margin-top: 12px;
     border-radius: 50px;
-   
 }
 
 .userImg{
     width: 90px;
     height: 90px;
     margin: 20px 0 0;
+    border-radius: 50px;
 }
 
 .userName{
@@ -116,7 +120,7 @@ ul{
     justify-content: space-between;
     margin-top: 10px;
     font-family: 'Inter', sans-serif;
-    width: 230px;
+    width: 211px;
     color: #615F5F;
 }
 
@@ -136,11 +140,23 @@ ul{
 }
 
 .btnUser:hover{
-    background-color: #615f5f63;
+    background-color: rgb(6, 6, 6, 17%);
 }
 
 .section2-div2-div2{
-    width: 120px;
     display: flex;
-    margin-left: 90px;
+    width: 94px;
+    height: 40px;
+    display: flex;
+    margin: 11px 29px 19px 247px;
+    gap: 14px;
+}
+
+.imgPhone,.imgChat{
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+}
+.imgPhone:hover,.imgChat:hover{
+    transform:scale(1.1) ;
 }
